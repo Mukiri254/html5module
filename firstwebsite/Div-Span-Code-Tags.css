@@ -1,0 +1,22 @@
+var{
+	color: brown;
+	font-style: normal;
+}
+em{
+	color: purple;
+}
+id{
+	color: blue;
+}
+pre{
+	text-align: left;
+}
+h3{
+	text-decoration: underline; 
+}
+div{
+	background-color: darkgray;
+}
+body{
+	background-color: #99ccff;
+}

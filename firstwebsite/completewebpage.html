@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>This is my first web page</title>
+	 <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	
+	 
+	 
+	<p><h1>This is my <em>first</em> web page</h1></p>
+	<p><h2>What this is</h2></p>
+	<p>A simple page put together using HTML</p>
+	<p>How <strong>exciting</strong></p>
+	<p><h2>Why this is</h2></p>
+	<ul>
+		<p><li>To learn HTML</li></p>
+
+		<h2>Where to find HTML tutorials</h2>
+		<p><a href="https://www.htmldog.com">HTML Dog</a></p>
+
+		<h2>Where to find my second web page</h2>
+		<p><a href="secondpage.html">Second web page</a></p>
+
+		<h2>Where to find favourite movies page</h2>
+		<p><a href="movies/favouritemovies.html">favourite movies web page</a></p>
+
+		<img src="SeniorCat.jpg" width="120" height="90" alt="Senior Cat sleeping">
+
+		<img src="images/images.jfif" width="120" height="90" alt="Senior Dog posing">
+
+		<a href = "https://en.wikipedia.org/wiki/Dark_Hedges#/media/File:Dark_Hedges_near_Armoy,_Co_Antrim_(cropped).jpg">
+		<img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Dark_Hedges_near_Armoy%2C_Co_Antrim_%28cropped%29.jpg"
+		 width="120" height="90" alt="Dark Hedges tree tunnel near Armoy"></a>
+			
+		<h2>Where to find my Table web page</h2>
+		<p><a href="table.html">Table web page</a></p
+	   		 <p><li>To show off</li></p>
+				<ol>
+				<p><li>To my boss</li></p>
+				<p><li>To my friends</li></p>
+				<p><li>To my cat</li></p>
+				<p><li>To the little talking duck in 
+		my brain</li></p>
+				</ol>
+			<li>Because I've fallen in love with 
+		my computer and want to give her some HTML 
+			loving</li></p>
+	</ul>
+	
+	
+	<p><h1> <em>Table web page</em></h1></p>
+	<p><strong>Week's Temperature table</strong></p>
+	<table>
+		<tr>
+			<td><strong>Day</strong></td>
+			<td><strong>Min</strong></td>
+        	<td><strong>Max</strong></td>
+       		<td><strong>Avg</strong></td>
+			
+		
+		</tr>
+		<tr>
+			<td>Monday</td> 
+			<td>7</td>
+        	<td> 9</td>
+        	<td>7.3</td>
+			
+		</tr>
+		<tr>
+			<td>Tuesday</td> 
+			<td>4</td>
+        	<td> 6</td>
+        	<td>5.1</td>
+			
+		</tr>
+		<tr>
+			<td>Wednesday</td> 
+			<td>5</td>
+        	<td> 7</td>
+        	<td>6</td>
+		</tr>
+		<tr>
+			<td>Thursday</td> 
+			<td>5</td>
+        	<td> 4</td>
+        	<td>4.5</td>
+		</tr>
+		<tr>
+			<td>Friday</td> 
+			<td>6</td>
+        	<td> 8</td>
+        	<td>7</td>
+		</tr>
+		<tr>
+			<td>Saturday</td> 
+			<td>7</td>
+        	<td> 8</td>
+        	<td>7.5</td>
+		</tr>
+		<tr>
+			<td>Sunday</td> 
+			<td>7</td>
+        	<td> 9</td>
+        	<td>8</td>
+		</tr>
+		
+				
+	</table>
+	
+	<h1>Form Exercise</h1>
+<div>
+<form action="contactus.php" method="post">
+
+    <p>Name:
+	<label for="fname">First Name:</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your first name">
+	<label for="lname"> Last Name:</label>
+	<input type="text" id="lname" name="lastname" placeholder="Your last name">
+	</p>
+	
+
+    <fieldset>
+			<legend>Your age</legend>
+			<div>
+				<label for="lt20">19 or under</label>
+				<input type="radio" name="age" id="lt20" value="lt20">
+			</div>
+			<div>
+				<label for="20to39">20 to 39</label>
+				<input type="radio" name="age" id="20to39" value="20to39">
+			</div>
+			<div>
+				<label for="40to59">40 to 59</label>
+				<input type="radio" name="age" id="40to59" value="40to59">
+			</div>
+			<div>
+				<label for="gt59">60 or over</label>
+				<input type="radio" name="age" id="gt59" value="gt59">
+			</div>
+		</fieldset>
+	
+    <!-- remember: 'type="text"' isn't actually necessary -->
+
+    <p>Please check if you are a student: 
+	<input type="checkbox" name="Student" id="yes" value="I am a student"></p>
+	<fieldset>
+    <legend>Gender:</legend>
+    <p><input type="radio" name="areyou" value="male"> Male</p>
+    <p><input type="radio" name="areyou" value="female"> Female</p>
+    <p><input type="radio" name="areyou" value="hermaphrodite"> An hermaphrodite</p>
+    <p><input type="radio" name="areyou" value="asexual"> Asexual</p>
+	</fieldset>
+	<p>Address Field 1:
+    <input type="text" name="address 1"></p>
+	<p>Address Field 2:
+	<input type="text" name="address 2"></p>
+	
+	<p>County:
+	<select>
+    <option value="dublin">Dublin</option>
+    <option value="cork">Cork</option>
+	<option value="donegal">Donegal</option>
+    <option value="mayo">Mayo</option>
+	<option value="sligo">Sligo</option>
+    <option value="galway">Galway</option>
+	<option value="wicklow">Wicklow</option>
+    <option value="louth">Louth</option>
+	</select></p>
+	<br>
+    <p><input type="submit"></p>
+
+</form>
+</div>
+</body>
+</html>

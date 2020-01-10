@@ -1,0 +1,20 @@
+.red-p  {
+    color: red;  
+    font-style : italic;
+}
+
+.p1-div2 p{
+    color: blue;
+    font-size: 20px;
+     background: yellow; 
+     
+}
+.main p{
+    color: blue;
+    font-weight: bold;
+    
+}
+div:last-child p:last-child{
+    font-size: 14px;
+    font-family: courier;
+}
